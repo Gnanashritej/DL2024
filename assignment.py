@@ -41,6 +41,7 @@ for model_type in model_types:
 plt.title('Comparison of Model Accuracy')
 plt.xlabel('Epochs')
 plt.ylabel('Accuracy')
+plt.grid()
 plt.legend()
 plt.savefig("plot.png")
 plt.show()
